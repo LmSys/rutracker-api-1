@@ -33,6 +33,12 @@ class RutrackerApi {
             .then(html => this.parser.parsePage(html));
     }
 
+    url(url) {
+        return this.pageProvider
+            .url(url)
+            .then(html => this.parser.parsePage(html));
+    }
+
     content(id) {
         return this.pageProvider
             .content(id)
