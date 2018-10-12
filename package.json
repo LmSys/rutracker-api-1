@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1",
+    "bytes": "^3.0.0",
     "cheerio": "^1.0.0-rc.2",
     "windows-1251": "^1.0.0"
   },
